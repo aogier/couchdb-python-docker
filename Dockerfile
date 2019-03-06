@@ -1,5 +1,5 @@
 # vim: syntax=dockerfile
-FROM couchdb
+FROM couchdb:2.3.0
 
 RUN apt-get update \
     && apt-get --no-install-recommends install -y \
